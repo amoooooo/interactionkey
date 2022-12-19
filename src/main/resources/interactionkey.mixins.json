@@ -5,8 +5,11 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "interactionkey.refmap.json",
   "mixins": [
+    "ServerGamePacketListenerImplMixin"
   ],
   "client": [
+    "client.MinecraftMixin",
+    "client.MultiPlayerGameModeMixin"
   ],
   "injectors": {
     "defaultRequire": 1

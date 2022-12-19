@@ -1,4 +1,5 @@
 {
   "key.interaction_key.interaction_key": "Interaction Key",
-  "key.categories.interaction_key": "Interaction Key"
+  "key.categories.interaction_key": "Interaction Key",
+  "entity.interactionkey.example_entity": "Example Entity"
 }
