@@ -1,10 +1,12 @@
 package coffee.amo.interactionkey.compat
 
 import coffee.amo.interactionkey.util.ItemUtil.getClosestItem
+import net.minecraft.core.BlockPos
 import net.minecraft.world.entity.item.ItemEntity
 import net.minecraft.world.entity.player.Player
 import team.creative.itemphysic.ItemPhysic
 import team.creative.itemphysic.common.packet.PickupPacket
+import javax.swing.text.html.parser.Entity
 
 object ItemPhysicCompat {
     fun playerPickupInteract(player: Player) {
@@ -19,4 +21,5 @@ object ItemPhysicCompat {
             ItemPhysic.NETWORK.sendToServer(PickupPacket(itemEntity.uuid, true))
         }
     }
+
 }
